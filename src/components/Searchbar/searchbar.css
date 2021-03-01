@@ -10,7 +10,8 @@
 }
 
 .search_box:hover>.search_box__search_txt {
-  width: 240px;
+  /* width: 240px; */
+  width: 440px;
   padding: 0 6px;
 }
 
@@ -47,9 +48,21 @@
   width: 0;
 }
 
+@media screen and (max-width: 1000px) {
+  .search_box:hover>.search_box__search_txt {
+    width: 240px;
+  }
+}
+
 @media screen and (max-width: 730px) {
   .search_box {
     margin: 40% 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search_box:hover>.search_box__search_txt {
+    width: 140px;
   }
 }
 

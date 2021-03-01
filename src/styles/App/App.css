@@ -7,5 +7,7 @@
 }
 
 .body {
+  /* position: relative; */
+  /* height: 200vh; */
   background: #24252a; /*https://www.canva.com/colors/color-palettes/window-tide/*/
 }
