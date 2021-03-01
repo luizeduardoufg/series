@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #24252a; /*https://www.canva.com/colors/color-palettes/window-tide/*/
+}
