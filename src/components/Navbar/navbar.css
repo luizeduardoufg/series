@@ -32,7 +32,8 @@ header {
 
 .nav__links li a:hover {
   color: #0088a9;
-  padding: 9px 25px;
+  padding: 9px 5px;
+  margin: -5px;
   border-radius: 50px;
   background-color: white;
   transition: all 0.3s ease 0s;
@@ -42,6 +43,7 @@ header button {
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
+  outline: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
@@ -57,7 +59,9 @@ header button:hover {
     flex-flow: column;
   }
 
-  .nav__links {
+  .nav__links li {
     display: block;
+    padding: 25px;
+    text-align: center;
   }
 }
