@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar/Navbar';
 import React from 'react';
 import axios from 'axios';
-import SeriesTable from '../components/SeriesTable/SeriesTable';
+import Searchbar from '../components/Searchbar/Searchbar';
 
 
 class Search extends React.Component {
