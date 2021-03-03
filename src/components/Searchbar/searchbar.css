@@ -21,7 +21,11 @@
 
 .search_box__search_btn {
   color: #0088a9;
+  background: none;
+  border: none;
+  outline: none;
   float: right;
+  cursor: pointer;
   width: 40px;
   height: 40px;
   border-radius: 50%;
